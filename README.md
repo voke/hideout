@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Set `HIDEOUT_URL` and `HIDEOUT_TOKEN`
 
 ## Contributing
 
