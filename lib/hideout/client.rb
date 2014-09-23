@@ -18,7 +18,7 @@ module Hideout
 
   def get(target_url, raise_error = true)
 
-    data = Base64.urlsafe_encode64(target_url)
+    data = Hideout.encode(target_url)
 
     uri = URI(base_uri)
     uri.path = '/api/offers'
